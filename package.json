@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "start": "yarn build && node dist/app.js"
+    "read": "node dist/readFromQueue.js",
+    "send": "node dist/sendToQueue.js"
   },
   "dependencies": {
     "amqplib": "^0.8.0"
